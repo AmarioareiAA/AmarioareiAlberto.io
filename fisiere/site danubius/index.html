@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Luna</title>
+    <link rel="icon" href="moon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 20px;
+            background-image: url(stars.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            text-shadow: 4px 2px 4px #0f848a;
+            font-size: 220%;
+            transition: color 1s ease-in-out;
+        }
+        
+        h1:hover {
+        color: #000000;
+        text-shadow: 4px 2px 4px #ffffff;
+        }
+
+        h2{
+            color: rgb(108, 155, 231);
+            font-size: 165%;
+        }
+
+        h3{
+            color: rgb(108, 155, 231);
+            font-size: 165%;
+        }
+
+        #moon-image {
+            display: block;
+            margin: 20px auto;
+            margin-bottom: -80px;
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        #moon-image:hover {
+            transform: scale(1.2);
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            color: rgb(222, 221, 224);
+        }
+        .info-row1 {
+            display: flex;
+            justify-content: space-between;
+            color:  rgb(200, 192, 192);
+        }
+
+        .info-row2 {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: -50px;
+            color: rgb(154, 151, 151);
+        }
+
+        .info-row3 {
+            display: flex;
+            margin-bottom: 40px;
+            color: rgb(12, 103, 200);
+            text-shadow: 2px 3px 2px rgb(26, 26, 26);
+            justify-content: center;
+            font-size: 109%;
+        }
+
+        .info-column {
+            flex: 0 0 48%;
+        }
+        
+        .info-column1 {
+            flex: 0 0 50%;
+        }
+
+        div {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    h3 {
+        color: rgb(108, 155, 231);
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 60%;
+        margin: 20px auto;
+        margin-bottom: 50px;
+    }
+
+    th, td {
+        border: 1px solid rgb(222, 221, 224);
+        padding: 8px;
+        text-align: center;
+        color: rgb(222, 221, 224);
+    }
+
+    th {
+        background-color: rgb(108, 155, 231);
+        color: white;
+    }
+    th:hover {
+        background-color: rgb(15, 79, 182);
+        color: rgb(0, 0, 0);
+    }
+
+        #link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #1e3977;
+            font-size: 100%;
+        }
+
+        #link:hover {
+            text-align: center;
+            color: #0f56fd;
+            text-decoration-line: overline;
+        }
+
+        #moon-video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border: 2px solid rgb(108, 155, 231);
+        }
+
+        #dynamicText {
+        color: rgb(33, 132, 182);
+        cursor: pointer;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #dynamicText1 {
+        color: rgb(33, 33, 182);
+        cursor: pointer;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    </style>
+</head>
+<body>
+
+    <h1><u>Luna</u></h1>
+
+    <img id="moon-image" src="moon_image.png">
+
+    <div class="info-row">
+        <div class="info-column">
+            <h2>Informații de bază</h2>
+            <p>Luna este singurul satelit natural al Pământului și este al cincilea cel mai mare satelit din Sistemul Solar. Este aproximativ 1/6 din dimensiunea Pământului și are o atmosferă relativ subțire.</p>
+        </div>
+        <div class="info-column">
+            <h2>Caracteristici de suprafață</h2>
+            <p>Suprafața Lunii este acoperită de cratere, munți și câmpii. Zonele întunecate sunt numite mări lunare, iar zonele luminoase sunt înălțimi. Luna nu are apă lichidă.</p>
+        </div>
+    </div>
+
+    <div class="info-row1">
+        <div class="info-column">
+            <h2>Fazele Lunii</h2>
+            <p>Luna trece prin diferite faze, inclusiv lună nouă, primul pătrar, lună plină și ultimul pătrar. Aceste faze sunt rezultatul pozițiilor schimbătoare ale Lunii, Pământului și Soarelui.</p>
+        </div>
+        <div class="info-column">
+            <h2>Gravitația pe Lună</h2>
+            <p>Forța gravitațională de pe Lună este aproximativ 1/6 din cea de pe Pământ. Această diferență în gravitație afectează greutatea obiectelor de la suprafața Lunii.</p>
+        </div>
+    </div>
+
+    <div class="info-row2">
+        <div class="info-column">
+            <h2>Explorarea Lunii</h2>
+            <p> Luna a fost obiectul unor numeroase misiuni spațiale umane și robotice. Misiunele Apollo au fost cele care au dus primii oameni pe suprafața lunară, prima aterizare umană având loc în 1969, cu Apollo 11.</p>
+        </div>
+        <div class="info-column">
+            <h2>Ciclul Saros</h2>
+            <p> Luna are un ciclu numit Saros, care este de aproximativ 18 ani, 11 zile și 8 ore. Acest ciclu este folosit pentru a prezice eclipsele de Soare și de Lună.</p>
+        </div>
+    </div>
+
+    <div class="info-row3">
+        <div class="info-column1">
+            <p>În concluzie, Luna rămâne un subiect captivant al explorării spațiale, dezvăluind mistere legate de formarea sistemului nostru solar și influențând viața pe Pământ prin ciclurile sale unice. Descoperirile continue și perspectivele de explorare viitoare promit să aducă noi înțelegeri despre acest companion nocturn al nostru.</p>
+        </div>
+    </div>
+    
+    <pinf id="dynamicText" onclick="changeDynamicText()">Se consideră că Luna s-a format acum circa...</pinf>
+    
+    <div>
+        <h3>Comparație Lună - Pământ</h3>
+        <table>
+            <tr>
+                <th>Parametru</th>
+                <th>Lună</th>
+                <th>Pământ</th>
+                <th>Raport (Lună/Pământ)</th>
+                <th><p id="dynamicText1"> Calculează</p></th>
+            </tr>
+            <tr>
+                <td>Masă (10^24 kg)</td>
+                <td>0.07346</td>
+                <td>5.9724</td>
+                <td><p id="demo"></p></td>
+            </tr>
+            <tr>
+                <td>Volum (10^10 km^3)</td>
+                <td>2.1968</td>
+                <td>108.321</td>
+                <td><p id="demo1"></p></td>
+            </tr>
+            <tr>
+                <td>Rază Ecuatorială (km)</td>
+                <td>1738.1</td>
+                <td>6378.1</td>
+                <td><p id="demo2"></p></td>
+            </tr>
+            <tr>
+                <td>Rază Polară (km)</td>
+                <td>1736.0</td>
+                <td>6356.8</td>
+                <td><p id="demo3"></p></td>
+            </tr>
+            <tr>
+                <td>Rază Medie Volumetrică (km)</td>
+                <td>1737.4</td>
+                <td>6371.0</td>
+                <td><p id="demo4"></p></td>
+            </tr>
+            <tr>
+                <td>Densitate Medie (kg/m^3)</td>
+                <td>3344</td>
+                <td>5514</td>
+                <td><p id="demo5"></p></td>
+            </tr>
+            <tr>
+                <td>Gravitație la Suprafață (m/s^2)</td>
+                <td>1.62</td>
+                <td>9.80</td>
+                <td><p id="demo6"></p></td>
+            </tr>
+        </table>
+        
+    </div>
+
+	    <video id="moon-video" controls autoplay>
+        <source src="moon_video.mp4" type="video/mp4">
+    </video>
+
+    <a id="link" href="https://ro.wikipedia.org/wiki/Lun%C4%83" target="_blank">Află mai multe despre Lună</a>
+
+    <script>
+function calculateRatios() {
+    document.getElementById("demo").innerHTML = (0.07346 / 5.9724).toFixed(2);
+    document.getElementById("demo1").innerHTML = (2.1968 / 108.321).toFixed(2);
+    document.getElementById("demo2").innerHTML = (1738.1 / 6378.1).toFixed(2);
+    document.getElementById("demo3").innerHTML = (1736.0 / 6356.8).toFixed(2);
+    document.getElementById("demo4").innerHTML = (1737.4 / 6371.0).toFixed(2);
+    document.getElementById("demo5").innerHTML = (3344 / 5514).toFixed(2);
+    document.getElementById("demo6").innerHTML = (1.62 / 9.80).toFixed(2);
+}
+    document.getElementById("dynamicText1").addEventListener("click", calculateRatios);
+        function changeDynamicText() {
+            var dynamicTextParagraph = document.getElementById("dynamicText");
+            dynamicTextParagraph.textContent = "Se consideră că Luna s-a format acum circa 4,51 miliarde de ani, nu mult după Pământ.";
+        }
+
+        </script>
+
+</body>
+</html>
